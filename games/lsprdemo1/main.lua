@@ -84,7 +84,7 @@ function load()
     --
     --      Images
     --
-    bngimage , boximg , lslopeimg  , rslopeimg , boxbreakimg , particleimg , winimg = img("lsprdemo1\background.png") , pximg("lsprdemo1\box.png") , pximg("lsprdemo1\lslope.png") , pximg("lsprdemo1\rslope.png") , pximg("lsprdemo1\boxbreak.png") , pximg("lsprdemo1\particle.png") , img("lsprdemo1\win.png")
+    bngimage , boximg , lslopeimg  , rslopeimg , boxbreakimg , particleimg , winimg = img("lsprdemo1/background.png") , pximg("lsprdemo1/box.png") , pximg("lsprdemo1/lslope.png") , pximg("lsprdemo1/rslope.png") , pximg("lsprdemo1/boxbreak.png") , pximg("lsprdemo1/particle.png") , img("lsprdemo1/win.png")
 
 
 
