@@ -31,8 +31,8 @@ function load()
   stars = creategroup()
   camera.orgin.x = love.graphics.getWidth() * 0.5
   camera.orgin.y = love.graphics.getHeight() * 0.5
-  for i=1,10000 do
-    stars:add(createsprite(math.random(-4,4),math.random(-4,4)))
+  for i=1,20000 do
+    stars:add(createsprite(math.random(-4000,4000),math.random(-800,800)))
     star = stars:get(i)
     star.distance = math.random(1,50)/10
     star.radius = star.distance/1.7
